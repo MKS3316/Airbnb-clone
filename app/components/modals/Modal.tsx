@@ -74,7 +74,7 @@ const Modal: React.FC<ModalInterface> = ({
                 <div className={`translate flex flex-col h-full lg:h-auto md:h-auto border-0 rounded-lg shadow-lg relative bg-white w-full outline-none focus:outline-none`}>
                     {/* {header} */}
                     <div className={`flex items-center justify-center relative border-b-[1px] rounded-t p-6`}>
-                        <button onClick={handleClose} className={`p-1 left-9 transition absolute border-0 hover:opacity-70`}>
+                        <button onClick={handleClose} className={`p-1 right-9 transition absolute border-0 hover:opacity-70`}>
                            <IoMdClose size={20}/>
                         </button>
                         <div className={`text-lg font-semibold`}> 
