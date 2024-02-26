@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "builds": [
+      { "src": "vercel-build.js", "use": "@now/node" }
+    ],
+    "routes": [
+      { "src": "/api/.*", "dest": "api/index.ts" }
+    ],
+    "env": {
+      "PRISMA_GENERATE": "true"
+    }
+  }
+  
