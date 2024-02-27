@@ -8,8 +8,8 @@ const Logo = () => {
     const router=useRouter();
 
     return ( 
-        <div onClick={()=>router.push('/')} className="cursor-pointer">
-            <Image
+        <div  className="cursor-pointer">
+            <Image onClick={()=>router.push('/')}
             alt="logo image"
             src={"/logo.png"}
             height={100}
